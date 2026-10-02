@@ -51,7 +51,7 @@ public class SecurityConfig {
 
                 // Authentication endpoints
                 .requestMatchers(
-                        "/api/auth/**",
+                        "/","/api/auth/**",
                         "/api/health",
                         "/error")
                 .permitAll()
